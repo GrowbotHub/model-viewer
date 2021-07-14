@@ -1,0 +1,28 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 5% 5% 5% 5%;
+}
+
+h1 {
+    font-size:10vh;
+}
+
+a {
+    color:blue;
+}
+
+.desc {
+    font-size:2vh;
+}
+
+.bottom-stick {
+    position:fixed;
+    top:35%;
+}
+
+#logo {
+    width:33%;
+    height:auto;
+    position:fixed;
+    right:10%;
+}
