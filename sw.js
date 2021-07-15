@@ -1,15 +1,15 @@
 const staticCacheName = 'site-static-v1';
 const assets = [
-    '/index.html',
-    '/assets/css/style.css',
-    '/assets/css/mv-style.css',
-    '/assets/icon.png',
+    './index.html',
+    './assets/css/style.css',
+    './assets/css/mv-style.css',
+    './assets/icon.png',
 
 
-    '/assets/models/gm.glb',
-    '/assets/models/rsma.glb',
-    '/assets/models/full.glb',
-    '/assets/models/ap.glb',
+    './assets/models/gm.glb',
+    './assets/models/rsma.glb',
+    './assets/models/full.glb',
+    './assets/models/ap.glb',
 ];
 // install event
 self.addEventListener('install', evt => {
