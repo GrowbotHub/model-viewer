@@ -3,29 +3,51 @@
 
 <link rel="stylesheet" href="assets/css/mv-style.css">
 
-<model-viewer id="mv-full" shadow-intensity="1" src="assets/models/full.glb" alt="A 3D model of the full GrowBotHub installation" auto-rotate
-    camera-controls poster="" style="width:100%;height:100%">
-    <button class="Hotspot" slot="hotspot-1" data-position="-62.47716704561026m 810.5784363318999m -1239.9757220452998m"
-        data-normal="0.6166762201699751m -0.5154968475722508m 0.5949566703718383m" data-visibility-attribute="visible"
-        onclick="window.location.href='rs_ma.html'">
-        <div class="HotspotAnnotation">Robotic Arm</div>
-    </button>
+    <model-viewer id="mv-full" shadow-intensity="1" src="assets/models/full.glb" alt="A 3D model of the full GrowBotHub installation" auto-rotate
+        camera-controls style="height: 100%; width: 100%">
 
-    <button class="Hotspot" slot="hotspot-2" data-position="362.69214679976085m -443.38901684657685m -1786.4987319051736m"
-        data-normal="0.9860204696525411m 0.000003439693038117261m 0.16662422817330894m"
-        data-visibility-attribute="visible" onclick="window.location.href='automated_platform.html'">
-        <div class="HotspotAnnotation">Automated Platform</div>
-    </button>
 
-    <button class="Hotspot" slot="hotspot-3" data-position="-247.74250107911666m 0m -1305.3256194792523m"
-        data-normal="0m -1m 0m" data-visibility-attribute="visible" onclick="window.location.href='rs_ma.html'">
-        <div class="HotspotAnnotation">Mixing Area</div>
-    </button>
+        <button class="Hotspot" slot="hotspot-1" data-position="-62.47716704561026m 810.5784363318999m -1239.9757220452998m"
+            data-normal="0.6166762201699751m -0.5154968475722508m 0.5949566703718383m" data-visibility-attribute="visible"
+            onclick="window.location.href='rs_ma.html'">
+            <div class="HotspotAnnotation">Robotic Arm</div>
+        </button>
 
-    <button class="Hotspot" slot="hotspot-4" data-position="-35.1300418017081m 618.5241005801279m -262.5108198991097m"
-        data-normal="0.9999998378981448m 0.00037656190745692864m -0.0004270887658789568m"
-        data-visibility-attribute="visible" onclick="window.location.href='growth_module.html'">
-        <div class="HotspotAnnotation">Growth Modules</div>
-    </button>
+        <button class="Hotspot" slot="hotspot-2" data-position="362.69214679976085m -443.38901684657685m -1786.4987319051736m"
+            data-normal="0.9860204696525411m 0.000003439693038117261m 0.16662422817330894m"
+            data-visibility-attribute="visible" onclick="window.location.href='automated_platform.html'">
+            <div class="HotspotAnnotation">Automated Platform</div>
+        </button>
 
-</model-viewer>
+        <button class="Hotspot" slot="hotspot-3" data-position="-247.74250107911666m 0m -1305.3256194792523m"
+            data-normal="0m -1m 0m" data-visibility-attribute="visible" onclick="window.location.href='rs_ma.html'">
+            <div class="HotspotAnnotation">Mixing Area</div>
+        </button>
+
+        <button class="Hotspot" slot="hotspot-4" data-position="-35.1300418017081m 618.5241005801279m -262.5108198991097m"
+            data-normal="0.9999998378981448m 0.00037656190745692864m -0.0004270887658789568m"
+            data-visibility-attribute="visible" onclick="window.location.href='growth_module.html'">
+            <div class="HotspotAnnotation">Aeroponic Modules</div>
+        </button>
+
+    <div class="HotspotAnnotation Description">
+        <h1>The Full Robot</h1>
+        <p>Say hi to GrowBotHub!</p>
+        <p>
+            This robot is designed to grow plants in a self-sustained, closed loop fashion. It is composed
+            of several subsystems, all communicating with each other through the robot's own Local Area Network. 
+        </p>
+        <p>
+            The plants are stored in aeroponic modules, which sit in a metallic shelving structure.
+            There are four shelves with four units. Each unit can hold 300 kg.
+        </p>
+        <p>
+            There a spaced by around 30cm in order to be able to
+            store the plants during at least half of their growth.
+            When they get higher, one module is removed to give additional
+            space.
+        </p>
+        <p> Click on a subsystem to get more information!</p>
+    </div>
+
+    </model-viewer>

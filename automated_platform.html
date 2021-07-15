@@ -4,4 +4,55 @@
 <link rel="stylesheet" href="assets/css/mv-style.css">
 
 <model-viewer id="mv-ap" shadow-intensity="1" src="assets/models/ap.glb" alt="A 3D model of the Automated Platform" auto-rotate
-    camera-controls poster="" style="width:100%;height:100%"></model-viewer>
+    camera-controls poster="" style="width:100%;height:100%">
+
+    <div class="HotspotAnnotation Description">
+        <h1>Automated Platform</h1>
+        <p>
+            Its main purpose it to move the aeroponic modules around&mdash;mostly from the shelves to the robotic arm and back.
+        </p>
+        <p>
+            It can move horizontally and vertically, and can also rotate to be able to grab the modules from any side.
+            A pair of prongs deploys itself to be placed just under the module,
+            lift it and bring it back.
+        </p>
+    </div>
+
+    <button class="Hotspot" slot="hotspot-1" data-position="221.99999999999955m 40.77883186822919m 794.1158826266269m"
+        data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">
+            Rotation Wheel
+        </div>
+    </button>
+
+    <button class="Hotspot" slot="hotspot-3" data-position="133.99194442018245m 1312.6646728119679m 839.4601422509663m"
+        data-normal="0.5093476042478706m 0.8605608741088308m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">
+            Aeroponic Module
+        </div>
+    </button>
+
+    <button class="Hotspot" slot="hotspot-4" data-position="-55.77565022750787m 1168.467300077885m 675.0999145507812m"
+        data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">
+            Retrieval Prongs
+        </div>
+    </button>
+
+    <button class="Hotspot" slot="hotspot-5" data-position="222m 2000m 794.1158826266269m"
+        data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">
+            Z-axis rails
+        </div>
+    </button>
+
+    <button class="Hotspot" slot="hotspot-6" data-position="222m 40.77883186822919m -600m"
+        data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">
+            X-axis rails
+        </div>
+    </button>
+
+    
+
+</model-viewer>

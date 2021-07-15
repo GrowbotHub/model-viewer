@@ -4,4 +4,42 @@
 <link rel="stylesheet" href="assets/css/mv-style.css">
 
 <model-viewer id="mv-rsma" shadow-intensity="1" src="assets/models/rsma.glb" alt="A 3D model of the Robotic Station + Mixing Area" auto-rotate
-    camera-controls poster="" style="width:100%;height:100%"></model-viewer>
+    camera-controls poster="" style="width:100%;height:100%">
+
+    <div class="HotspotAnnotation Description">
+        <h1>Robotic Station</h1>
+        <p>
+            The robotic arm is equipped with a camera to check the growth stage of the plants. If it considers them ready, it grabs them
+            to place them on a table accessible to the astronauts.
+        </p>
+        <p>
+            The robot can plant seeds and pollinate flowers. It is also tasked with moving plants around the different Aeroponic Modules to
+            make sure they all have enough space to grow.
+        </p>
+    </div>
+
+    <div class="HotspotAnnotation Description" style="transform: translate(0, 15px); right: 2em;">
+        <h1>Mixing Area</h1>
+        <p>
+            The Mixing Area aims to refill the aeroponic modules according to the plants' need.
+        </p>
+        <p>
+            It is composed of tanks containing various solutions such as fertilizer, pH regulators,
+            nutrient supplement and water. Each tank is connected to a pump, able to produce the exact volume
+            of liquid necessary to obtain a solution matching the need of the plants.
+        </p>
+    </div>
+
+    <button class="Hotspot" slot="hotspot-1" data-position="-336.1634636413487m 922.5973533017691m 252.3214462733522m"
+        data-normal="-0.08772819685343416m -0.00583511294562833m 0.9961273587919152m"
+        data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Robotic arm</div>
+    </button>
+
+    <button class="Hotspot" slot="hotspot-2" data-position="-279.7283498099959m 0.0m 262.48848263323794m"
+        data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Mixing area (not shown)</div>
+    </button>
+
+
+</model-viewer>
